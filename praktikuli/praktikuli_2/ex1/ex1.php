@@ -73,7 +73,7 @@ if (isset($_POST['x'])) {
     }
     ?>
     <br>
-    <a href="../index.php">უკან დაბრუნება</a>
+    <a href="../index.php">უკადაბრუნება</a>
 </body>
 
 </html>
