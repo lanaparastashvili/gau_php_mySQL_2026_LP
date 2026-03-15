@@ -21,6 +21,11 @@
         <li><a href="ex3/ex3.php">სავარჯიშო 3 </a></li>
         <li><a href="ex4/ex4.php">სავარჯიშო 4 </a></li>
         <li><a href="ex5/ex5.php">სავარჯიშო 5 </a></li>
+        <li><a href="ex6/ex6.php">სავარჯიშო 6 </a></li>
+        <li><a href="ex7/ex7.php">სავარჯიშო 7</a></li>
+        <li><a href="ex8/ex8.php">სავარჯიშო 8 </a></li>
+        <li><a href="ex9/ex9.php">სავარჯიშო 9 </a></li>
+        <li><a href="ex10/ex10.php">სავარჯიშო 10 </a></li>
     </ul>
 </body>
 </html>
