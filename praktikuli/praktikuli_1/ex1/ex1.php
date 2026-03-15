@@ -56,6 +56,9 @@
         echo "<tr><td>ხელზე ასაღები</td><td><strong>$net_salary ლარი</strong></td></tr>";
         echo "</table>";
     }
+
     ?>
+    <br>
+     <a href="../index.php">უკან დაბრუნება</a>
 </body>
 </html>

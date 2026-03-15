@@ -73,5 +73,7 @@
         echo "</table>";
     }
     ?>
+    <br>
+     <a href="../index.php">უკან დაბრუნება</a>
 </body>
 </html>
