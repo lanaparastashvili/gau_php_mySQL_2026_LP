@@ -113,7 +113,7 @@ function getDigitSum($num) {
         <li>მატრიცის ელემენტების განი(უდიდესს - უმცირესი): <b><?php echo $range;?></b>
             (მაქსიმალური: <b><?php echo $max;?></b>, მინიმალური: <b><?php echo $min;?></b>)</li>
     </ul>
-    <br>
+     <br>
      <a href="../index.php">უკან დაბრუნება</a>
 </body>
 </html>

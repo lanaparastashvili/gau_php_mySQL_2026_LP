@@ -27,7 +27,6 @@ for($i = 0;$i<6;$i++){
         }
         ?>
     </table>
-    <br>
      <br>
      <a href="../index.php">უკან დაბრუნება</a>
 </body>
