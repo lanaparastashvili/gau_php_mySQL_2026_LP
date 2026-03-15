@@ -1,0 +1,4 @@
+ .error { color: red; } 
+        .form-group { margin-bottom: 20px; }
+        table { border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
