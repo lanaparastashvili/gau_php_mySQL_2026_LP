@@ -17,7 +17,7 @@
     <p>აირჩიეთ სავარჯიშო:</p>
     <ul>
         <li><a href="ex1/ex1.php">სავარჯიშო 1 </a></li>
-        <li><a href="ex2/ex2.php">სავარჯიშო 2 </a></li>
+        <li><a href="ex2/ex2.php">სავარჯიშო 2</a></li>
         <li><a href="ex3/ex3.php">სავარჯიშო 3 </a></li>
         <li><a href="ex4/ex4.php">სავარჯიშო 4 </a></li>
         <li><a href="ex5/ex5.php">სავარჯიშო 5 </a></li>
