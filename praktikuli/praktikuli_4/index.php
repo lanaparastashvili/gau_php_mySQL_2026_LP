@@ -30,7 +30,7 @@
         <li><a href="ex12/ex12.php">სავარჯიშო 12</a></li>
         <li><a href="ex13/ex13.php">სავარჯიშო 13 </a></li>
         <li><a href="ex14/ex14.php">სავარჯიშო 14 </a></li>
-        <li><a href="ex15/ex15 .php">სავარჯიშო 15 </a></li>
+        <li><a href="ex15/ex15.php">სავარჯიშო 15 </a></li>
     </ul>
 </body>
 </html>
