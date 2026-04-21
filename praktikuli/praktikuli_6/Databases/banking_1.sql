@@ -1,8 +1,6 @@
--- მონაცემთა ბაზის შექმნა საბანკო სისტემისთვის
 CREATE DATABASE IF NOT EXISTS banking_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE banking_db;
 
--- კლიენტები
 CREATE TABLE IF NOT EXISTS clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -12,7 +10,6 @@ CREATE TABLE IF NOT EXISTS clients (
     phone VARCHAR(20)
 );
 
--- ფილიალები
 CREATE TABLE IF NOT EXISTS branches (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -20,7 +17,6 @@ CREATE TABLE IF NOT EXISTS branches (
     address TEXT
 );
 
--- ანგარიშები
 CREATE TABLE IF NOT EXISTS accounts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     client_id INT NOT NULL,
@@ -33,7 +29,6 @@ CREATE TABLE IF NOT EXISTS accounts (
     FOREIGN KEY (branch_id) REFERENCES branches(id) ON DELETE RESTRICT
 );
 
--- ტრანზაქციები
 CREATE TABLE IF NOT EXISTS transactions (
     id INT AUTO_INCREMENT PRIMARY KEY,
     account_id INT NOT NULL,
@@ -44,7 +39,6 @@ CREATE TABLE IF NOT EXISTS transactions (
     FOREIGN KEY (account_id) REFERENCES accounts(id) ON DELETE CASCADE
 );
 
--- მონაცემების ჩასმა
 INSERT INTO clients (first_name, last_name, personal_number, address, phone) VALUES 
 ('ნიკოლოზ', 'ბანკირი', '01010101010', 'თბილისი, ჭავჭავაძის გამზ.', '599123456'),
 ('სალომე', 'კლიენტი', '02020202020', 'ბათუმი, მემედ აბაშიძის ქ.', '599654321'),
